@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
-import os
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "7918352098:AAHTy54Uw94XUlDoFu-hYnhXwRGpQogKuNA"
+
 
 
 # دالة لجلب معلومات الدواء من موقع rosheta
