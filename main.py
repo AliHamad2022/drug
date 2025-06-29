@@ -45,7 +45,7 @@ def fetch_drug_info(drug_id):
 
 # دالة بدء البوت
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("👋 أهلاً بك! فقط أرسل رقم الدواء (مثال: 9910) وسأجلب لك معلوماته من rosheta.com.")
+    await update.message.reply_text("👋 أهلاً بك! فقط أرسل رقم الدواء (مثال: 9910) وسأجلب لك معلوماته من.")
 
 
 # دالة التعامل مع أي رسالة نصية تحتوي على رقم
@@ -65,7 +65,7 @@ async def handle_drug_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
             else:
                 await update.message.reply_text(caption, parse_mode='Markdown')
     else:
-        await update.message.reply_text("🔎 فقط أرسل رقم الدواء من موقع Rosheta للحصول على التفاصيل.")
+        await update.message.reply_text("🔎 فقط أرسل رقم الدواء للحصول على التفاصيل.")
 
 # تشغيل البوت
 if __name__ == '__main__':
