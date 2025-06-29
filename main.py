@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
-BOT_TOKEN = "7918352098:AAHTy54Uw94XUlDoFu-hYnhXwRGpQogKuNA"
+BOT_TOKEN = "7918352098:AAEqEP-U1fa3iYxzGYjwCNrODGNZmIEEHcI"
 
 
 
