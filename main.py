@@ -57,7 +57,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [InlineKeyboardButton("🔍 بحث عن دواء", switch_inline_query_current_chat="")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        await update.message.reply_text("أهلاً بك! اختار أحد الخيارات، أو أرسل رقم دواء لجلب معلوماته من Rosheta:", reply_markup=reply_markup)
+        await update.message.reply_text("أهلاً بك! اختار أحد الخيارات، أو أرسل رقم دواء لجلب معلوماته  :", reply_markup=reply_markup)
 
 # عرض قائمة الأدوية مع صفحات
 async def list_drugs(update: Update, context: ContextTypes.DEFAULT_TYPE):
